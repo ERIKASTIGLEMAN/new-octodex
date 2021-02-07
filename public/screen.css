@@ -16,6 +16,7 @@ header {
   justify-content: space-between;
  }
 
+ 
 a:link{text-decoration: none;
 color: rgb(61, 60, 60);}
 
@@ -34,8 +35,7 @@ nav li {
 
    
 
-/* 
-nav ul:first-child
-{display:inline;} */
+
+
 
 
