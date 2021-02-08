@@ -9,14 +9,22 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(244, 244, 244);
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  background-color: white;
+ 
  }
 
- 
+ header li {
+display:inline-flex
+
+ }
+
+
 a:link{text-decoration: none;
 color: rgb(61, 60, 60);}
 
@@ -30,10 +38,51 @@ a:active{text-decoration: none;
 nav li {
    list-style:none; 
    margin:1rem;
-   display: inline;
+     }
+
+
+article > a > img {
+  border-radius: 1rem;
+  border: 2px solid rgb(217, 217, 217);
+  }
+
+  article li a img{
+    border-radius: 1rem;
+  }
+  
+
+section {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 0.5rem; 
+   padding-top: 3rem;
+   margin-left: 5rem;
    }
 
-   
+
+article li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
+}
+
+article li:nth-child(2){
+  padding:0 0 0 10rem;
+}
+
+
+footer{
+  margin-left: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  color: rgb(104, 99, 99);
+  border-top: lightgray solid;
+}
+
+footer p{
+  padding-top: 2rem;
+}
+ 
 
 
 
