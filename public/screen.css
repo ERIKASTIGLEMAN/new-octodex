@@ -17,13 +17,15 @@ header {
   justify-content: space-between;
   align-items: center;
   max-height: 3rem;
-position: fixed;
-
-background-color:rgba(243, 240, 240, 0.8);
-color:white; 
+  position: fixed;
   border-bottom:1px solid lightgray;
   width: 100%;
- 
+  background-color: white;
+ opacity: .8;  
+ }
+
+ header img{
+   background-color: none;
  }
 
  header ul{
