@@ -123,8 +123,11 @@ footer p{
   padding-top: 2rem;
 }
  
-
-
-
+  @media (max-width: 768px) {
+    .image {
+      max-width: 375px;
+      max-height: 375px;
+    }
+  }
 
 
