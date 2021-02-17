@@ -15,13 +15,24 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  align-items: center;
+  max-height: 3rem;
+position: fixed;
+
+background-color:rgba(243, 240, 240, 0.8);
+color:white; 
+  border-bottom:1px solid lightgray;
+  width: 100%;
  
  }
 
- header li {
-display:inline-flex
+ header ul{
+   display: flex;
+   align-items: center;
+ }
 
+ header li{
+display:inline-flex
  }
 
 
@@ -52,8 +63,8 @@ article > a > img {
   
 
 section {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+   display: flex;
+   flex-wrap: wrap;
    gap: 0.5rem; 
    padding-top: 3rem;
    margin-left: 5rem;
